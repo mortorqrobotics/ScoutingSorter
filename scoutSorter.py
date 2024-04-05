@@ -1,7 +1,7 @@
 import json
 from datetime import datetime
-f = open("test.json", encoding="utf8")
-# f = open("matchscout.json", encoding="utf8")
+# f = open("test.json", encoding="utf8")
+f = open("matchscout.json", encoding="utf8")
 data = json.load(f)
 matches = data["data"]
 
