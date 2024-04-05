@@ -1,12 +1,9 @@
 import json
-# f = open("test.json", encoding="utf8")
-f = open("matchscout.json", encoding="utf8")
+f = open("test.json", encoding="utf8")
+# f = open("matchscout.json", encoding="utf8")
 data = json.load(f)
 matches = data["data"]
 teams = []
-for key in matches: 
-    teams.append(key)
-# print(teams)
 
 
 def sortByAutoScore(matches):
@@ -134,10 +131,10 @@ def sortByClimb(matches):
             submissionKey = list(tele[key].keys())[0]
             submission = tele[key][submissionKey]
             score = submission["climbRating"]
-            if score == "No Climb" or score == "-":
-                val+=0
-            else:
+            try:
                 val+=int(score)
+            except:
+                val+=0
             times+=1
         averages.append((k,val/times))
     sorteds = (sorted(averages, key = lambda x: x[1]))
@@ -295,4 +292,3 @@ sortByAutoAmp(matches)
 sortByAutoSpeaker(matches)
 sortByTotalAmp(matches)
 sortByTotalSpeaker(matches)
-

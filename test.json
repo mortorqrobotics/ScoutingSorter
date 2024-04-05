@@ -72,7 +72,8 @@
                       "leftRobotStartingZone": "Yes",
                       "matchNumber": "2",
                       "notesScoredInAmpInTeleop": 1,
-                      "notesScoredInSpeakerInTeleop": 1
+                      "notesScoredInSpeakerInTeleop": 1,
+                      "climbRating": "5"
                     }
                   },
                   "submission2": {
@@ -82,7 +83,8 @@
                       "leftRobotStartingZone": "Yes",
                       "matchNumber": "2",
                       "notesScoredInAmpInTeleop": 1,
-                      "notesScoredInSpeakerInTeleop": 1
+                      "notesScoredInSpeakerInTeleop": 1,
+                      "climbRating": "5"
                     }
                   },
                   "submission3": {
@@ -91,6 +93,7 @@
                       "attemptedShotsInSpeaker": 3,
                       "leftRobotStartingZone": "Yes",
                       "matchNumber": "2",
+                      "climbRating": "5",
                       "notesScoredInAmpInTeleop": 1,
                       "notesScoredInSpeakerInTeleop": 1
                     }
@@ -101,6 +104,7 @@
                       "attemptedShotsInSpeaker": 3,
                       "leftRobotStartingZone": "Yes",
                       "matchNumber": "2",
+                      "climbRating": "5",
                       "notesScoredInAmpInTeleop": 1,
                       "notesScoredInSpeakerInTeleop": 1
                     }
@@ -111,6 +115,7 @@
                       "attemptedShotsInSpeaker": 3,
                       "leftRobotStartingZone": "Yes",
                       "matchNumber": "2",
+                      "climbRating": "5",
                       "notesScoredInAmpInTeleop": 1,
                       "notesScoredInSpeakerInTeleop": 1
                     }
@@ -177,6 +182,7 @@
                       "attemptedShotsInSpeaker": 3,
                       "leftRobotStartingZone": "Yes",
                       "matchNumber": "2",
+                      "climbRating": "2",
                       "notesScoredInAmpInTeleop": 2,
                       "notesScoredInSpeakerInTeleop": 1
                     }
@@ -187,6 +193,7 @@
                       "attemptedShotsInSpeaker": 3,
                       "leftRobotStartingZone": "Yes",
                       "matchNumber": "2",
+                      "climbRating": "2",
                       "notesScoredInAmpInTeleop": 1,
                       "notesScoredInSpeakerInTeleop": 2
                     }
@@ -197,6 +204,7 @@
                       "attemptedShotsInSpeaker": 3,
                       "leftRobotStartingZone": "Yes",
                       "matchNumber": "2",
+                      "climbRating": "2",
                       "notesScoredInAmpInTeleop": 2,
                       "notesScoredInSpeakerInTeleop": 1
                     }
@@ -207,6 +215,7 @@
                       "attemptedShotsInSpeaker": 3,
                       "leftRobotStartingZone": "Yes",
                       "matchNumber": "2",
+                      "climbRating": "2",
                       "notesScoredInAmpInTeleop": 1,
                       "notesScoredInSpeakerInTeleop": 2
                     }
@@ -217,6 +226,7 @@
                       "attemptedShotsInSpeaker": 3,
                       "leftRobotStartingZone": "Yes",
                       "matchNumber": "2",
+                      "climbRating": "2",
                       "notesScoredInAmpInTeleop": 2,
                       "notesScoredInSpeakerInTeleop": 1
                     }
@@ -283,6 +293,7 @@
                       "attemptedShotsInSpeaker": 3,
                       "leftRobotStartingZone": "Yes",
                       "matchNumber": "2",
+                      "climbRating": "4",
                       "notesScoredInAmpInTeleop": 1,
                       "notesScoredInSpeakerInTeleop": 1
                     }
@@ -293,6 +304,7 @@
                       "attemptedShotsInSpeaker": 3,
                       "leftRobotStartingZone": "Yes",
                       "matchNumber": "2",
+                      "climbRating": "4",
                       "notesScoredInAmpInTeleop": 2,
                       "notesScoredInSpeakerInTeleop": 2
                     }
@@ -303,6 +315,7 @@
                       "attemptedShotsInSpeaker": 3,
                       "leftRobotStartingZone": "Yes",
                       "matchNumber": "2",
+                      "climbRating": "4",
                       "notesScoredInAmpInTeleop": 3,
                       "notesScoredInSpeakerInTeleop": 3
                     }
@@ -313,6 +326,7 @@
                       "attemptedShotsInSpeaker": 3,
                       "leftRobotStartingZone": "Yes",
                       "matchNumber": "2",
+                      "climbRating": "4",
                       "notesScoredInAmpInTeleop": 4,
                       "notesScoredInSpeakerInTeleop": 4
                     }
@@ -323,6 +337,7 @@
                       "attemptedShotsInSpeaker": 3,
                       "leftRobotStartingZone": "Yes",
                       "matchNumber": "2",
+                      "climbRating": "4",
                       "notesScoredInAmpInTeleop": 5,
                       "notesScoredInSpeakerInTeleop": 5
                     }
@@ -389,6 +404,7 @@
                       "attemptedShotsInSpeaker": 3,
                       "leftRobotStartingZone": "Yes",
                       "matchNumber": "2",
+                      "climbRating": "2",
                       "notesScoredInAmpInTeleop": 0,
                       "notesScoredInSpeakerInTeleop": 0
                     }
@@ -399,6 +415,7 @@
                       "attemptedShotsInSpeaker": 3,
                       "leftRobotStartingZone": "Yes",
                       "matchNumber": "2",
+                      "climbRating": "3",
                       "notesScoredInAmpInTeleop": 0,
                       "notesScoredInSpeakerInTeleop": 0
                     }
@@ -409,6 +426,7 @@
                       "attemptedShotsInSpeaker": 3,
                       "leftRobotStartingZone": "Yes",
                       "matchNumber": "2",
+                      "climbRating": "No Climb",
                       "notesScoredInAmpInTeleop": 0,
                       "notesScoredInSpeakerInTeleop": 0
                     }
@@ -419,6 +437,7 @@
                       "attemptedShotsInSpeaker": 3,
                       "leftRobotStartingZone": "Yes",
                       "matchNumber": "2",
+                      "climbRating": "No Climb",
                       "notesScoredInAmpInTeleop": 0,
                       "notesScoredInSpeakerInTeleop": 0
                     }
@@ -429,6 +448,7 @@
                       "attemptedShotsInSpeaker": 3,
                       "leftRobotStartingZone": "Yes",
                       "matchNumber": "2",
+                      "climbRating": "No Climb",
                       "notesScoredInAmpInTeleop": 0,
                       "notesScoredInSpeakerInTeleop": 0
                     }
@@ -495,6 +515,7 @@
                       "attemptedShotsInSpeaker": 3,
                       "leftRobotStartingZone": "Yes",
                       "matchNumber": "2",
+                      "climbRating": "3",
                       "notesScoredInAmpInTeleop": 3,
                       "notesScoredInSpeakerInTeleop": 3
                     }
@@ -505,6 +526,7 @@
                       "attemptedShotsInSpeaker": 3,
                       "leftRobotStartingZone": "Yes",
                       "matchNumber": "2",
+                      "climbRating": "3",
                       "notesScoredInAmpInTeleop": 4,
                       "notesScoredInSpeakerInTeleop": 3
                     }
@@ -515,6 +537,7 @@
                       "attemptedShotsInSpeaker": 3,
                       "leftRobotStartingZone": "Yes",
                       "matchNumber": "2",
+                      "climbRating": "3",
                       "notesScoredInAmpInTeleop": 2,
                       "notesScoredInSpeakerInTeleop": 1
                     }
@@ -525,6 +548,7 @@
                       "attemptedShotsInSpeaker": 3,
                       "leftRobotStartingZone": "Yes",
                       "matchNumber": "2",
+                      "climbRating": "3",
                       "notesScoredInAmpInTeleop": 6,
                       "notesScoredInSpeakerInTeleop": 4
                     }
@@ -535,6 +559,7 @@
                       "attemptedShotsInSpeaker": 3,
                       "leftRobotStartingZone": "Yes",
                       "matchNumber": "2",
+                      "climbRating": "No Climb",
                       "notesScoredInAmpInTeleop": 2,
                       "notesScoredInSpeakerInTeleop": 5
                     }
