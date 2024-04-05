@@ -1,0 +1,7 @@
+team 4 scored on average 0.0 in auto
+team 1 scored on average 7.0 in auto
+team 2 scored on average 10.8 in auto
+team 3 scored on average 21.0 in auto
+team 5 scored on average 22.0 in auto
+
+last updated at 2024-04-05 08:45:04.019785

@@ -1,0 +1,7 @@
+team 4 scored on average 0.0 in teleop (not couning amped shots)
+team 1 scored on average 3.0 in teleop (not couning amped shots)
+team 2 scored on average 4.4 in teleop (not couning amped shots)
+team 3 scored on average 9.0 in teleop (not couning amped shots)
+team 5 scored on average 9.8 in teleop (not couning amped shots)
+
+last updated at 2024-04-05 08:45:04.019785

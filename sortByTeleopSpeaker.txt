@@ -1,0 +1,7 @@
+team 4 scored on average 0.0 speaker notes in teleop
+team 1 scored on average 1.0 speaker notes in teleop
+team 2 scored on average 1.4 speaker notes in teleop
+team 3 scored on average 3.0 speaker notes in teleop
+team 5 scored on average 3.2 speaker notes in teleop
+
+last updated at 2024-04-05 08:45:04.030620

@@ -1,9 +1,9 @@
 import json
+from datetime import datetime
 f = open("test.json", encoding="utf8")
 # f = open("matchscout.json", encoding="utf8")
 data = json.load(f)
 matches = data["data"]
-teams = []
 
 
 def sortByAutoScore(matches):
@@ -25,6 +25,7 @@ def sortByAutoScore(matches):
     f = open("sortByAutoScore.txt", "w")
     for i in sorteds:
         f.write(f"team {i[0]} scored on average {i[1]} in auto\n")
+    f.write(f"\nlast updated at "+str(datetime.now()))
 
 def sortByTeleopScore(matches):
     averages = []
@@ -48,12 +49,13 @@ def sortByTeleopScore(matches):
     f = open("sortByTeleopScore.txt", "w")
     for i in sorteds:
         f.write(f"team {i[0]} scored on average {i[1]} in teleop (not couning amped shots)\n")
+    f.write(f"\nlast updated at "+str(datetime.now()))
 
 def sortByTotalScore(matches):
     averages = []
     for match in matches: 
         k = match
-        tele = matches[match]["teleopscout"]
+        tele = matches[match]["teleopscout"] 
         auto = matches[match]["autoscout"]
         val = 0
         times = 0
@@ -77,6 +79,7 @@ def sortByTotalScore(matches):
     f = open("sortByTotalScore.txt", "w")
     for i in sorteds:
         f.write(f"team {i[0]} scored on average {i[1]} in teleop (not couning amped shots)\n")
+    f.write(f"\nlast updated at "+str(datetime.now()))
 
 def sortByAutoNotes(matches):
     averages = []
@@ -97,6 +100,7 @@ def sortByAutoNotes(matches):
     f = open("sortByAutoNotes.txt", "w")
     for i in sorteds:
         f.write(f"team {i[0]} scored on average {i[1]} notes in auto\n")
+    f.write(f"\nlast updated at "+str(datetime.now()))
 
 def sortByTeleopNotes(matches):
     averages = []
@@ -119,6 +123,7 @@ def sortByTeleopNotes(matches):
         f = open("sortByTeleopNotes.txt", "w")
     for i in sorteds:
         f.write(f"team {i[0]} scored on average {i[1]} notes in teleop\n")
+    f.write(f"\nlast updated at "+str(datetime.now()))
 
 def sortByClimb(matches):
     averages = []
@@ -141,6 +146,30 @@ def sortByClimb(matches):
     f = open("sortByClimb.txt", "w")
     for i in sorteds:
         f.write(f"team {i[0]} had an average climb rating of {i[1]}\n")
+    f.write(f"\nlast updated at "+str(datetime.now()))
+
+def sortByDefense(matches):
+    averages = []
+    for match in matches: 
+        k = match
+        tele = matches[match]["teleopscout"]
+        val = 0
+        times = 0
+        for key in tele:
+            submissionKey = list(tele[key].keys())[0]
+            submission = tele[key][submissionKey]
+            score = submission["defenseRating"]
+            try:
+                val+=int(score)
+            except:
+                val+=0
+            times+=1
+        averages.append((k,val/times))
+    sorteds = (sorted(averages, key = lambda x: x[1]))
+    f = open("sortByDefense.txt", "w")
+    for i in sorteds:
+        f.write(f"team {i[0]} had an average defense rating of {i[1]}\n")
+    f.write(f"\nlast updated at "+str(datetime.now()))
 
 def sortByTeleopAmp(matches):
     averages = []
@@ -163,6 +192,7 @@ def sortByTeleopAmp(matches):
         f = open("sortByTeleopAmp.txt", "w")
     for i in sorteds:
         f.write(f"team {i[0]} scored on average {i[1]} amp notes in teleop\n")
+    f.write(f"\nlast updated at "+str(datetime.now()))
 
 def sortByTeleopSpeaker(matches):
     averages = []
@@ -185,6 +215,7 @@ def sortByTeleopSpeaker(matches):
         f = open("sortByTeleopSpeaker.txt", "w")
     for i in sorteds:
         f.write(f"team {i[0]} scored on average {i[1]} speaker notes in teleop\n")
+    f.write(f"\nlast updated at "+str(datetime.now()))
 
 def sortByAutoAmp(matches):
     averages = []
@@ -204,6 +235,7 @@ def sortByAutoAmp(matches):
         f = open("sortByAutoAmp.txt", "w")
     for i in sorteds:
         f.write(f"team {i[0]} scored on average {i[1]} amp notes in auto\n")
+    f.write(f"\nlast updated at "+str(datetime.now()))
 
 def sortByAutoSpeaker(matches):
     averages = []
@@ -223,6 +255,7 @@ def sortByAutoSpeaker(matches):
         f = open("sortByAutoSpeaker.txt", "w")
     for i in sorteds:
         f.write(f"team {i[0]} scored on average {i[1]} speaker notes in auto\n")
+    f.write(f"\nlast updated at "+str(datetime.now()))
 
 def sortByTotalAmp(matches):
     averages = []
@@ -251,6 +284,7 @@ def sortByTotalAmp(matches):
         f = open("sortByTotalAmp.txt", "w")
     for i in sorteds:
         f.write(f"team {i[0]} scored on average {i[1]} amp notes in total\n")
+    f.write(f"\nlast updated at "+str(datetime.now()))
 
 def sortByTotalSpeaker(matches):
     averages = []
@@ -279,6 +313,7 @@ def sortByTotalSpeaker(matches):
         f = open("sortByTotalSpeaker.txt", "w")
     for i in sorteds:
         f.write(f"team {i[0]} scored on average {i[1]} Speaker notes in total\n")
+    f.write(f"\nlast updated at "+str(datetime.now()))
 
 sortByAutoScore(matches)
 sortByTeleopScore(matches)
@@ -292,3 +327,4 @@ sortByAutoAmp(matches)
 sortByAutoSpeaker(matches)
 sortByTotalAmp(matches)
 sortByTotalSpeaker(matches)
+sortByDefense(matches)

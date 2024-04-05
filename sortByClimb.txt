@@ -1,0 +1,7 @@
+team 4 had an average climb rating of 1.0
+team 2 had an average climb rating of 2.0
+team 5 had an average climb rating of 2.4
+team 3 had an average climb rating of 4.0
+team 1 had an average climb rating of 5.0
+
+last updated at 2024-04-05 08:45:04.024811
