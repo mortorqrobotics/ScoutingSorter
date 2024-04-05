@@ -1,4 +1,5 @@
 import json
+# f = open("test.json", encoding="utf8")
 f = open("matchscout.json", encoding="utf8")
 data = json.load(f)
 matches = data["data"]
@@ -24,8 +25,9 @@ def sortByAutoScore(matches):
         averages.append((k,val/times))
 
     sorteds = (sorted(averages, key = lambda x: x[1]))
+    f = open("sortByAutoScore.txt", "w")
     for i in sorteds:
-        print(f"team {i[0]} scored on average {i[1]} in auto")
+        f.write(f"team {i[0]} scored on average {i[1]} in auto\n")
 
 def sortByTeleopScore(matches):
     averages = []
@@ -46,8 +48,38 @@ def sortByTeleopScore(matches):
         averages.append((k,val/times))
 
     sorteds = (sorted(averages, key = lambda x: x[1]))
+    f = open("sortByTeleopScore.txt", "w")
     for i in sorteds:
-        print(f"team {i[0]} scored on average {i[1]} in teleop (not couning amped shots)")
+        f.write(f"team {i[0]} scored on average {i[1]} in teleop (not couning amped shots)\n")
+
+def sortByTotalScore(matches):
+    averages = []
+    for match in matches: 
+        k = match
+        tele = matches[match]["teleopscout"]
+        auto = matches[match]["autoscout"]
+        val = 0
+        times = 0
+        for key in tele:
+            submissionKey = list(tele[key].keys())[0]
+            submission = tele[key][submissionKey]
+            try:
+                score = submission["notesScoredInSpeakerInTeleop"]*2  +submission["notesScoredInAmpInTeleop"]*1
+                val+=score
+                times+=1
+            except:
+                print("database skill issue")
+        for key in auto:
+            submissionKey = list(auto[key].keys())[0]
+            submission = auto[key][submissionKey]
+            score = submission["notesScoredInSpeaker"]*5  +submission["notesScoredInAmp"]*2
+            val+=score
+        averages.append((k,val/times))
+
+    sorteds = (sorted(averages, key = lambda x: x[1]))
+    f = open("sortByTotalScore.txt", "w")
+    for i in sorteds:
+        f.write(f"team {i[0]} scored on average {i[1]} in teleop (not couning amped shots)\n")
 
 def sortByAutoNotes(matches):
     averages = []
@@ -65,8 +97,9 @@ def sortByAutoNotes(matches):
         averages.append((k,val/times))
 
     sorteds = (sorted(averages, key = lambda x: x[1]))
+    f = open("sortByAutoNotes.txt", "w")
     for i in sorteds:
-        print(f"team {i[0]} scored on average {i[1]} notes in auto")
+        f.write(f"team {i[0]} scored on average {i[1]} notes in auto\n")
 
 def sortByTeleopNotes(matches):
     averages = []
@@ -86,8 +119,9 @@ def sortByTeleopNotes(matches):
                 print("database skill issue")
         averages.append((k,val/times))
         sorteds = (sorted(averages, key = lambda x: x[1]))
+        f = open("sortByTeleopNotes.txt", "w")
     for i in sorteds:
-        print(f"team {i[0]} scored on average {i[1]} notes in teleop")
+        f.write(f"team {i[0]} scored on average {i[1]} notes in teleop\n")
 
 def sortByClimb(matches):
     averages = []
@@ -107,8 +141,9 @@ def sortByClimb(matches):
             times+=1
         averages.append((k,val/times))
     sorteds = (sorted(averages, key = lambda x: x[1]))
+    f = open("sortByClimb.txt", "w")
     for i in sorteds:
-        print(f"team {i[0]} had an average climb rating of {i[1]}")
+        f.write(f"team {i[0]} had an average climb rating of {i[1]}\n")
 
 def sortByTeleopAmp(matches):
     averages = []
@@ -128,8 +163,9 @@ def sortByTeleopAmp(matches):
                 print("database skill issue")
         averages.append((k,val/times))
         sorteds = (sorted(averages, key = lambda x: x[1]))
+        f = open("sortByTeleopAmp.txt", "w")
     for i in sorteds:
-        print(f"team {i[0]} scored on average {i[1]} amp notes in teleop")
+        f.write(f"team {i[0]} scored on average {i[1]} amp notes in teleop\n")
 
 def sortByTeleopSpeaker(matches):
     averages = []
@@ -149,8 +185,9 @@ def sortByTeleopSpeaker(matches):
                 print("database skill issue")
         averages.append((k,val/times))
         sorteds = (sorted(averages, key = lambda x: x[1]))
+        f = open("sortByTeleopSpeaker.txt", "w")
     for i in sorteds:
-        print(f"team {i[0]} scored on average {i[1]} speaker notes in teleop")
+        f.write(f"team {i[0]} scored on average {i[1]} speaker notes in teleop\n")
 
 def sortByAutoAmp(matches):
     averages = []
@@ -167,8 +204,9 @@ def sortByAutoAmp(matches):
             times+=1
         averages.append((k,val/times))
         sorteds = (sorted(averages, key = lambda x: x[1]))
+        f = open("sortByAutoAmp.txt", "w")
     for i in sorteds:
-        print(f"team {i[0]} scored on average {i[1]} amp notes in auto")
+        f.write(f"team {i[0]} scored on average {i[1]} amp notes in auto\n")
 
 def sortByAutoSpeaker(matches):
     averages = []
@@ -185,8 +223,9 @@ def sortByAutoSpeaker(matches):
             times+=1
         averages.append((k,val/times))
         sorteds = (sorted(averages, key = lambda x: x[1]))
+        f = open("sortByAutoSpeaker.txt", "w")
     for i in sorteds:
-        print(f"team {i[0]} scored on average {i[1]} speaker notes in auto")
+        f.write(f"team {i[0]} scored on average {i[1]} speaker notes in auto\n")
 
 def sortByTotalAmp(matches):
     averages = []
@@ -208,13 +247,13 @@ def sortByTotalAmp(matches):
             try:
                 Notes = submission["notesScoredInAmpInTeleop"]
                 val+=Notes
-                times+=1
             except:
                 print("database skill issue")
         averages.append((k,val/times))
         sorteds = (sorted(averages, key = lambda x: x[1]))
+        f = open("sortByTotalAmp.txt", "w")
     for i in sorteds:
-        print(f"team {i[0]} scored on average {i[1]} amp notes in total")
+        f.write(f"team {i[0]} scored on average {i[1]} amp notes in total\n")
 
 def sortByTotalSpeaker(matches):
     averages = []
@@ -236,23 +275,24 @@ def sortByTotalSpeaker(matches):
             try: 
                 Notes = submission["notesScoredInSpeakerInTeleop"]
                 val+=Notes
-                times+=1
             except:
                 print("database skill issue")
         averages.append((k,val/times))
         sorteds = (sorted(averages, key = lambda x: x[1]))
+        f = open("sortByTotalSpeaker.txt", "w")
     for i in sorteds:
-        print(f"team {i[0]} scored on average {i[1]} Speaker notes in total")
+        f.write(f"team {i[0]} scored on average {i[1]} Speaker notes in total\n")
 
-# sortByAutoScore(matches)
-# sortByTeleopScore(matches)
-# sortByAutoNotes(matches)
-# sortByTeleopNotes(matches)
-# sortByClimb(matches)
-# sortByTeleopAmp(matches)
-# sortByTeleopSpeaker(matches)
-# sortByAutoAmp(matches)
-# sortByAutoSpeaker(matches)
-# sortByTotalAmp(matches)
-# sortByTotalSpeaker(matches)
+sortByAutoScore(matches)
+sortByTeleopScore(matches)
+sortByTotalScore(matches) 
+sortByAutoNotes(matches)
+sortByTeleopNotes(matches)
+sortByClimb(matches)
+sortByTeleopAmp(matches)
+sortByTeleopSpeaker(matches)
+sortByAutoAmp(matches)
+sortByAutoSpeaker(matches)
+sortByTotalAmp(matches)
+sortByTotalSpeaker(matches)
 

@@ -1,0 +1,545 @@
+{
+    "meta": {
+      "format": "JSON",
+      "version": "1.1.0",
+      "projectId": "morscout-2024",
+      "resourcePath": [
+        "matchscout"
+      ],
+      "recursive": false,
+      "creationTime": 1712256296,
+      "app": "firefoo"
+    },
+    "data": {
+        "1":{
+            "autoscout": {
+                "submission1": {
+                  "Daniel Salkin": {
+                    "attemptedShotsInAmp": 0,
+                    "attemptedShotsInSpeaker": 3,
+                    "leftRobotStartingZone": "Yes",
+                    "matchNumber": "2",
+                    "notesScoredInAmp": 1,
+                    "notesScoredInSpeaker": 1
+                  }
+                },
+                "submission2": {
+                  "Daniel Salkin": {
+                    "attemptedShotsInAmp": 0,
+                    "attemptedShotsInSpeaker": 3,
+                    "leftRobotStartingZone": "Yes",
+                    "matchNumber": "2",
+                    "notesScoredInAmp": 1,
+                    "notesScoredInSpeaker": 1
+                  }
+                },
+                "submission3": {
+                  "Daniel Salkin": {
+                    "attemptedShotsInAmp": 0,
+                    "attemptedShotsInSpeaker": 3,
+                    "leftRobotStartingZone": "Yes",
+                    "matchNumber": "2",
+                    "notesScoredInAmp": 1,
+                    "notesScoredInSpeaker": 1
+                  }
+                },
+                "submission4": {
+                  "Daniel Salkin": {
+                    "attemptedShotsInAmp": 0,
+                    "attemptedShotsInSpeaker": 3,
+                    "leftRobotStartingZone": "Yes",
+                    "matchNumber": "2",
+                    "notesScoredInAmp": 1,
+                    "notesScoredInSpeaker": 1
+                  }
+                },
+                "submission5": {
+                  "Daniel Salkin": {
+                    "attemptedShotsInAmp": 0,
+                    "attemptedShotsInSpeaker": 3,
+                    "leftRobotStartingZone": "Yes",
+                    "matchNumber": "2",
+                    "notesScoredInAmp": 1,
+                    "notesScoredInSpeaker": 1
+                  }
+                }
+            },
+            "teleopscout": {
+                "submission1": {
+                    "Daniel Salkin": {
+                      "attemptedShotsInAmp": 0,
+                      "attemptedShotsInSpeaker": 3,
+                      "leftRobotStartingZone": "Yes",
+                      "matchNumber": "2",
+                      "notesScoredInAmpInTeleop": 1,
+                      "notesScoredInSpeakerInTeleop": 1
+                    }
+                  },
+                  "submission2": {
+                    "Daniel Salkin": {
+                      "attemptedShotsInAmp": 0,
+                      "attemptedShotsInSpeaker": 3,
+                      "leftRobotStartingZone": "Yes",
+                      "matchNumber": "2",
+                      "notesScoredInAmpInTeleop": 1,
+                      "notesScoredInSpeakerInTeleop": 1
+                    }
+                  },
+                  "submission3": {
+                    "Daniel Salkin": {
+                      "attemptedShotsInAmp": 0,
+                      "attemptedShotsInSpeaker": 3,
+                      "leftRobotStartingZone": "Yes",
+                      "matchNumber": "2",
+                      "notesScoredInAmpInTeleop": 1,
+                      "notesScoredInSpeakerInTeleop": 1
+                    }
+                  },
+                  "submission4": {
+                    "Daniel Salkin": {
+                      "attemptedShotsInAmp": 0,
+                      "attemptedShotsInSpeaker": 3,
+                      "leftRobotStartingZone": "Yes",
+                      "matchNumber": "2",
+                      "notesScoredInAmpInTeleop": 1,
+                      "notesScoredInSpeakerInTeleop": 1
+                    }
+                  },
+                  "submission5": {
+                    "Daniel Salkin": {
+                      "attemptedShotsInAmp": 0,
+                      "attemptedShotsInSpeaker": 3,
+                      "leftRobotStartingZone": "Yes",
+                      "matchNumber": "2",
+                      "notesScoredInAmpInTeleop": 1,
+                      "notesScoredInSpeakerInTeleop": 1
+                    }
+                  }
+            }
+        },
+        "2":{
+            "autoscout": {
+                "submission1": {
+                    "Daniel Salkin": {
+                      "attemptedShotsInAmp": 0,
+                      "attemptedShotsInSpeaker": 3,
+                      "leftRobotStartingZone": "Yes",
+                      "matchNumber": "2",
+                      "notesScoredInAmp": 1,
+                      "notesScoredInSpeaker": 2
+                    }
+                  },
+                  "submission2": {
+                    "Daniel Salkin": {
+                      "attemptedShotsInAmp": 0,
+                      "attemptedShotsInSpeaker": 3,
+                      "leftRobotStartingZone": "Yes",
+                      "matchNumber": "2",
+                      "notesScoredInAmp": 2,
+                      "notesScoredInSpeaker": 1
+                    }
+                  },
+                  "submission3": {
+                    "Daniel Salkin": {
+                      "attemptedShotsInAmp": 0,
+                      "attemptedShotsInSpeaker": 3,
+                      "leftRobotStartingZone": "Yes",
+                      "matchNumber": "2",
+                      "notesScoredInAmp": 1,
+                      "notesScoredInSpeaker": 2
+                    }
+                  },
+                  "submission4": {
+                    "Daniel Salkin": {
+                      "attemptedShotsInAmp": 0,
+                      "attemptedShotsInSpeaker": 3,
+                      "leftRobotStartingZone": "Yes",
+                      "matchNumber": "2",
+                      "notesScoredInAmp": 2,
+                      "notesScoredInSpeaker": 1
+                    }
+                  },
+                  "submission5": {
+                    "Daniel Salkin": {
+                      "attemptedShotsInAmp": 0,
+                      "attemptedShotsInSpeaker": 3,
+                      "leftRobotStartingZone": "Yes",
+                      "matchNumber": "2",
+                      "notesScoredInAmp": 1,
+                      "notesScoredInSpeaker": 2
+                    }
+                  }
+            },
+            "teleopscout": {
+                "submission1": {
+                    "Daniel Salkin": {
+                      "attemptedShotsInAmp": 0,
+                      "attemptedShotsInSpeaker": 3,
+                      "leftRobotStartingZone": "Yes",
+                      "matchNumber": "2",
+                      "notesScoredInAmpInTeleop": 2,
+                      "notesScoredInSpeakerInTeleop": 1
+                    }
+                  },
+                  "submission2": {
+                    "Daniel Salkin": {
+                      "attemptedShotsInAmp": 0,
+                      "attemptedShotsInSpeaker": 3,
+                      "leftRobotStartingZone": "Yes",
+                      "matchNumber": "2",
+                      "notesScoredInAmpInTeleop": 1,
+                      "notesScoredInSpeakerInTeleop": 2
+                    }
+                  },
+                  "submission3": {
+                    "Daniel Salkin": {
+                      "attemptedShotsInAmp": 0,
+                      "attemptedShotsInSpeaker": 3,
+                      "leftRobotStartingZone": "Yes",
+                      "matchNumber": "2",
+                      "notesScoredInAmpInTeleop": 2,
+                      "notesScoredInSpeakerInTeleop": 1
+                    }
+                  },
+                  "submission4": {
+                    "Daniel Salkin": {
+                      "attemptedShotsInAmp": 0,
+                      "attemptedShotsInSpeaker": 3,
+                      "leftRobotStartingZone": "Yes",
+                      "matchNumber": "2",
+                      "notesScoredInAmpInTeleop": 1,
+                      "notesScoredInSpeakerInTeleop": 2
+                    }
+                  },
+                  "submission5": {
+                    "Daniel Salkin": {
+                      "attemptedShotsInAmp": 0,
+                      "attemptedShotsInSpeaker": 3,
+                      "leftRobotStartingZone": "Yes",
+                      "matchNumber": "2",
+                      "notesScoredInAmpInTeleop": 2,
+                      "notesScoredInSpeakerInTeleop": 1
+                    }
+                  }
+            }
+        },
+        "3":{
+            "autoscout": {
+                "submission1": {
+                    "Daniel Salkin": {
+                      "attemptedShotsInAmp": 0,
+                      "attemptedShotsInSpeaker": 3,
+                      "leftRobotStartingZone": "Yes",
+                      "matchNumber": "2",
+                      "notesScoredInAmp":1,
+                      "notesScoredInSpeaker": 1
+                    }
+                  },
+                  "submission2": {
+                    "Daniel Salkin": {
+                      "attemptedShotsInAmp": 0,
+                      "attemptedShotsInSpeaker": 3,
+                      "leftRobotStartingZone": "Yes",
+                      "matchNumber": "2",
+                      "notesScoredInAmp": 2,
+                      "notesScoredInSpeaker": 2
+                    }
+                  },
+                  "submission3": {
+                    "Daniel Salkin": {
+                      "attemptedShotsInAmp": 0,
+                      "attemptedShotsInSpeaker": 3,
+                      "leftRobotStartingZone": "Yes",
+                      "matchNumber": "2",
+                      "notesScoredInAmp": 3,
+                      "notesScoredInSpeaker": 3
+                    }
+                  },
+                  "submission4": {
+                    "Daniel Salkin": {
+                      "attemptedShotsInAmp": 0,
+                      "attemptedShotsInSpeaker": 3,
+                      "leftRobotStartingZone": "Yes",
+                      "matchNumber": "2",
+                      "notesScoredInAmp": 4,
+                      "notesScoredInSpeaker": 4
+                    }
+                  },
+                  "submission5": {
+                    "Daniel Salkin": {
+                      "attemptedShotsInAmp": 0,
+                      "attemptedShotsInSpeaker": 3,
+                      "leftRobotStartingZone": "Yes",
+                      "matchNumber": "2",
+                      "notesScoredInAmp": 5,
+                      "notesScoredInSpeaker": 5
+                    }
+                  }
+            },
+            "teleopscout": {
+                "submission1": {
+                    "Daniel Salkin": {
+                      "attemptedShotsInAmp": 0,
+                      "attemptedShotsInSpeaker": 3,
+                      "leftRobotStartingZone": "Yes",
+                      "matchNumber": "2",
+                      "notesScoredInAmpInTeleop": 1,
+                      "notesScoredInSpeakerInTeleop": 1
+                    }
+                  },
+                  "submission2": {
+                    "Daniel Salkin": {
+                      "attemptedShotsInAmp": 0,
+                      "attemptedShotsInSpeaker": 3,
+                      "leftRobotStartingZone": "Yes",
+                      "matchNumber": "2",
+                      "notesScoredInAmpInTeleop": 2,
+                      "notesScoredInSpeakerInTeleop": 2
+                    }
+                  },
+                  "submission3": {
+                    "Daniel Salkin": {
+                      "attemptedShotsInAmp": 0,
+                      "attemptedShotsInSpeaker": 3,
+                      "leftRobotStartingZone": "Yes",
+                      "matchNumber": "2",
+                      "notesScoredInAmpInTeleop": 3,
+                      "notesScoredInSpeakerInTeleop": 3
+                    }
+                  },
+                  "submission4": {
+                    "Daniel Salkin": {
+                      "attemptedShotsInAmp": 0,
+                      "attemptedShotsInSpeaker": 3,
+                      "leftRobotStartingZone": "Yes",
+                      "matchNumber": "2",
+                      "notesScoredInAmpInTeleop": 4,
+                      "notesScoredInSpeakerInTeleop": 4
+                    }
+                  },
+                  "submission5": {
+                    "Daniel Salkin": {
+                      "attemptedShotsInAmp": 0,
+                      "attemptedShotsInSpeaker": 3,
+                      "leftRobotStartingZone": "Yes",
+                      "matchNumber": "2",
+                      "notesScoredInAmpInTeleop": 5,
+                      "notesScoredInSpeakerInTeleop": 5
+                    }
+                  }
+            }
+        },
+        "4":{
+            "autoscout": {
+                "submission1": {
+                    "Daniel Salkin": {
+                      "attemptedShotsInAmp": 0,
+                      "attemptedShotsInSpeaker": 3,
+                      "leftRobotStartingZone": "Yes",
+                      "matchNumber": "2",
+                      "notesScoredInAmp": 0,
+                      "notesScoredInSpeaker": 0
+                    }
+                  },
+                  "submission2": {
+                    "Daniel Salkin": {
+                      "attemptedShotsInAmp": 0,
+                      "attemptedShotsInSpeaker": 3,
+                      "leftRobotStartingZone": "Yes",
+                      "matchNumber": "2",
+                      "notesScoredInAmp": 0,
+                      "notesScoredInSpeaker": 0
+                    }
+                  },
+                  "submission3": {
+                    "Daniel Salkin": {
+                      "attemptedShotsInAmp": 0,
+                      "attemptedShotsInSpeaker": 3,
+                      "leftRobotStartingZone": "Yes",
+                      "matchNumber": "2",
+                      "notesScoredInAmp": 0,
+                      "notesScoredInSpeaker": 0
+                    }
+                  },
+                  "submission4": {
+                    "Daniel Salkin": {
+                      "attemptedShotsInAmp": 0,
+                      "attemptedShotsInSpeaker": 3,
+                      "leftRobotStartingZone": "Yes",
+                      "matchNumber": "2",
+                      "notesScoredInAmp": 0,
+                      "notesScoredInSpeaker": 0
+                    }
+                  },
+                  "submission5": {
+                    "Daniel Salkin": {
+                      "attemptedShotsInAmp": 0,
+                      "attemptedShotsInSpeaker": 3,
+                      "leftRobotStartingZone": "Yes",
+                      "matchNumber": "2",
+                      "notesScoredInAmp": 0,
+                      "notesScoredInSpeaker": 0
+                    }
+                  }
+            },
+            "teleopscout": {
+                "submission1": {
+                    "Daniel Salkin": {
+                      "attemptedShotsInAmp": 0,
+                      "attemptedShotsInSpeaker": 3,
+                      "leftRobotStartingZone": "Yes",
+                      "matchNumber": "2",
+                      "notesScoredInAmpInTeleop": 0,
+                      "notesScoredInSpeakerInTeleop": 0
+                    }
+                  },
+                  "submission2": {
+                    "Daniel Salkin": {
+                      "attemptedShotsInAmp": 0,
+                      "attemptedShotsInSpeaker": 3,
+                      "leftRobotStartingZone": "Yes",
+                      "matchNumber": "2",
+                      "notesScoredInAmpInTeleop": 0,
+                      "notesScoredInSpeakerInTeleop": 0
+                    }
+                  },
+                  "submission3": {
+                    "Daniel Salkin": {
+                      "attemptedShotsInAmp": 0,
+                      "attemptedShotsInSpeaker": 3,
+                      "leftRobotStartingZone": "Yes",
+                      "matchNumber": "2",
+                      "notesScoredInAmpInTeleop": 0,
+                      "notesScoredInSpeakerInTeleop": 0
+                    }
+                  },
+                  "submission4": {
+                    "Daniel Salkin": {
+                      "attemptedShotsInAmp": 0,
+                      "attemptedShotsInSpeaker": 3,
+                      "leftRobotStartingZone": "Yes",
+                      "matchNumber": "2",
+                      "notesScoredInAmpInTeleop": 0,
+                      "notesScoredInSpeakerInTeleop": 0
+                    }
+                  },
+                  "submission5": {
+                    "Daniel Salkin": {
+                      "attemptedShotsInAmp": 0,
+                      "attemptedShotsInSpeaker": 3,
+                      "leftRobotStartingZone": "Yes",
+                      "matchNumber": "2",
+                      "notesScoredInAmpInTeleop": 0,
+                      "notesScoredInSpeakerInTeleop": 0
+                    }
+                  }
+            }
+        },
+        "5":{
+            "autoscout": {
+                "submission1": {
+                    "Daniel Salkin": {
+                      "attemptedShotsInAmp": 0,
+                      "attemptedShotsInSpeaker": 3,
+                      "leftRobotStartingZone": "Yes",
+                      "matchNumber": "2",
+                      "notesScoredInAmp": 1,
+                      "notesScoredInSpeaker": 3
+                    }
+                  },
+                  "submission2": {
+                    "Daniel Salkin": {
+                      "attemptedShotsInAmp": 0,
+                      "attemptedShotsInSpeaker": 3,
+                      "leftRobotStartingZone": "Yes",
+                      "matchNumber": "2",
+                      "notesScoredInAmp": 4,
+                      "notesScoredInSpeaker": 7
+                    }
+                  },
+                  "submission3": {
+                    "Daniel Salkin": {
+                      "attemptedShotsInAmp": 0,
+                      "attemptedShotsInSpeaker": 3,
+                      "leftRobotStartingZone": "Yes",
+                      "matchNumber": "2",
+                      "notesScoredInAmp": 2,
+                      "notesScoredInSpeaker": 0
+                    }
+                  },
+                  "submission4": {
+                    "Daniel Salkin": {
+                      "attemptedShotsInAmp": 0,
+                      "attemptedShotsInSpeaker": 3,
+                      "leftRobotStartingZone": "Yes",
+                      "matchNumber": "2",
+                      "notesScoredInAmp": 2,
+                      "notesScoredInSpeaker": 5
+                    }
+                  },
+                  "submission5": {
+                    "Daniel Salkin": {
+                      "attemptedShotsInAmp": 0,
+                      "attemptedShotsInSpeaker": 3,
+                      "leftRobotStartingZone": "Yes",
+                      "matchNumber": "2",
+                      "notesScoredInAmp": 1,
+                      "notesScoredInSpeaker": 3
+                    }
+                  }
+            },
+            "teleopscout": {
+                "submission1": {
+                    "Daniel Salkin": {
+                      "attemptedShotsInAmp": 0,
+                      "attemptedShotsInSpeaker": 3,
+                      "leftRobotStartingZone": "Yes",
+                      "matchNumber": "2",
+                      "notesScoredInAmpInTeleop": 3,
+                      "notesScoredInSpeakerInTeleop": 3
+                    }
+                  },
+                  "submission2": {
+                    "Daniel Salkin": {
+                      "attemptedShotsInAmp": 0,
+                      "attemptedShotsInSpeaker": 3,
+                      "leftRobotStartingZone": "Yes",
+                      "matchNumber": "2",
+                      "notesScoredInAmpInTeleop": 4,
+                      "notesScoredInSpeakerInTeleop": 3
+                    }
+                  },
+                  "submission3": {
+                    "Daniel Salkin": {
+                      "attemptedShotsInAmp": 0,
+                      "attemptedShotsInSpeaker": 3,
+                      "leftRobotStartingZone": "Yes",
+                      "matchNumber": "2",
+                      "notesScoredInAmpInTeleop": 2,
+                      "notesScoredInSpeakerInTeleop": 1
+                    }
+                  },
+                  "submission4": {
+                    "Daniel Salkin": {
+                      "attemptedShotsInAmp": 0,
+                      "attemptedShotsInSpeaker": 3,
+                      "leftRobotStartingZone": "Yes",
+                      "matchNumber": "2",
+                      "notesScoredInAmpInTeleop": 6,
+                      "notesScoredInSpeakerInTeleop": 4
+                    }
+                  },
+                  "submission5": {
+                    "Daniel Salkin": {
+                      "attemptedShotsInAmp": 0,
+                      "attemptedShotsInSpeaker": 3,
+                      "leftRobotStartingZone": "Yes",
+                      "matchNumber": "2",
+                      "notesScoredInAmpInTeleop": 2,
+                      "notesScoredInSpeakerInTeleop": 5
+                    }
+                  }
+            }
+        }
+    }
+}
