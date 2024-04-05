@@ -39,4 +39,4 @@ team 2073 scored on average 6.625 notes in teleop
 team 294 scored on average 7.454545454545454 notes in teleop
 team 1148 scored on average 8.4 notes in teleop
 
-last updated at 2024-04-05 14:29:37.252497
+last updated at 2024-04-05 14:33:32.643437

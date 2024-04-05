@@ -39,4 +39,4 @@ team 2073 scored on average 13.0 in auto
 team 1148 scored on average 14.5 in auto
 team 1515 scored on average 16.818181818181817 in auto
 
-last updated at 2024-04-05 14:29:37.211133
+last updated at 2024-04-05 14:33:32.615648

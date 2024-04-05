@@ -39,4 +39,4 @@ team 2073 scored on average 11.0 in teleop (not couning amped shots)
 team 1148 scored on average 11.7 in teleop (not couning amped shots)
 team 294 scored on average 12.545454545454545 in teleop (not couning amped shots)
 
-last updated at 2024-04-05 14:29:37.214178
+last updated at 2024-04-05 14:33:32.618187

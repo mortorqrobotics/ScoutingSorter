@@ -78,7 +78,7 @@ def sortByTotalScore(matches):
     sorteds = (sorted(averages, key = lambda x: x[1]))
     f = open("sortByTotalScore.txt", "w")
     for i in sorteds:
-        f.write(f"team {i[0]} scored on average {i[1]} in teleop (not couning amped shots)\n")
+        f.write(f"team {i[0]} scored on average {i[1]} in total (not couning amped shots)\n")
     f.write(f"\nlast updated at "+str(datetime.now()))
 
 def sortByAutoNotes(matches):

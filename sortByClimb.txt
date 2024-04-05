@@ -39,4 +39,4 @@ team 6305 had an average climb rating of 3.875
 team 1515 had an average climb rating of 4.153846153846154
 team 294 had an average climb rating of 4.545454545454546
 
-last updated at 2024-04-05 14:29:37.255264
+last updated at 2024-04-05 14:33:32.645925

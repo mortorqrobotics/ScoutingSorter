@@ -39,4 +39,4 @@ team 2073 scored on average 2.6 notes in auto
 team 1148 scored on average 2.9 notes in auto
 team 1515 scored on average 3.3636363636363638 notes in auto
 
-last updated at 2024-04-05 14:29:37.219500
+last updated at 2024-04-05 14:33:32.623569

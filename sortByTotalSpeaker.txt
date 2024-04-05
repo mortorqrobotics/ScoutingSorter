@@ -39,4 +39,4 @@ team 1538 scored on average 6.625 Speaker notes in total
 team 5137 scored on average 6.888888888888889 Speaker notes in total
 team 1515 scored on average 9.545454545454545 Speaker notes in total
 
-last updated at 2024-04-05 14:29:37.518047
+last updated at 2024-04-05 14:33:32.750702

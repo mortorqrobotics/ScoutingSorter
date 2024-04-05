@@ -39,4 +39,4 @@ team 5012 scored on average 4.0 amp notes in teleop
 team 1836 scored on average 4.625 amp notes in teleop
 team 1148 scored on average 5.1 amp notes in teleop
 
-last updated at 2024-04-05 14:29:37.285391
+last updated at 2024-04-05 14:33:32.663832

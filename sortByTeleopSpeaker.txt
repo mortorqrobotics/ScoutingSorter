@@ -39,4 +39,4 @@ team 5137 scored on average 5.0 speaker notes in teleop
 team 294 scored on average 5.090909090909091 speaker notes in teleop
 team 1515 scored on average 5.230769230769231 speaker notes in teleop
 
-last updated at 2024-04-05 14:29:37.361392
+last updated at 2024-04-05 14:33:32.679489

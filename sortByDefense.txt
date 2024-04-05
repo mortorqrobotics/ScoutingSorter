@@ -39,4 +39,4 @@ team 5857 had an average defense rating of 3.125
 team 6479 had an average defense rating of 3.25
 team 9471 had an average defense rating of 3.3
 
-last updated at 2024-04-05 14:29:37.520786
+last updated at 2024-04-05 14:33:32.752695

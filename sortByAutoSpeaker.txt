@@ -39,4 +39,4 @@ team 2073 scored on average 2.6 speaker notes in auto
 team 1148 scored on average 2.9 speaker notes in auto
 team 1515 scored on average 3.3636363636363638 speaker notes in auto
 
-last updated at 2024-04-05 14:29:37.454810
+last updated at 2024-04-05 14:33:32.713928
