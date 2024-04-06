@@ -11,7 +11,6 @@ team 2404 scored on average 0.0 amp notes in auto
 team 2429 scored on average 0.0 amp notes in auto
 team 2543 scored on average 0.0 amp notes in auto
 team 2584 scored on average 0.0 amp notes in auto
-team 2658 scored on average 0.0 amp notes in auto
 team 2659 scored on average 0.0 amp notes in auto
 team 3993 scored on average 0.0 amp notes in auto
 team 4014 scored on average 0.0 amp notes in auto
@@ -32,11 +31,12 @@ team 7673 scored on average 0.0 amp notes in auto
 team 7682 scored on average 0.0 amp notes in auto
 team 8006 scored on average 0.0 amp notes in auto
 team 8569 scored on average 0.0 amp notes in auto
-team 8768 scored on average 0.0 amp notes in auto
 team 9471 scored on average 0.0 amp notes in auto
 team 9666 scored on average 0.0 amp notes in auto
-team 5137 scored on average 0.07142857142857142 amp notes in auto
-team 1836 scored on average 0.5 amp notes in auto
-team 6072 scored on average 0.625 amp notes in auto
+team 5137 scored on average 0.047619047619047616 amp notes in auto
+team 2658 scored on average 0.0625 amp notes in auto
+team 8768 scored on average 0.17647058823529413 amp notes in auto
+team 6072 scored on average 0.5263157894736842 amp notes in auto
+team 1836 scored on average 0.5294117647058824 amp notes in auto
 
-last updated at 2024-04-05 19:08:03.324164
+last updated at 2024-04-06 15:57:11.493632
