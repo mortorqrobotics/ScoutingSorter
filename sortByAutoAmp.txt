@@ -35,8 +35,8 @@ team 8569 scored on average 0.0 amp notes in auto
 team 8768 scored on average 0.0 amp notes in auto
 team 9471 scored on average 0.0 amp notes in auto
 team 9666 scored on average 0.0 amp notes in auto
-team 5137 scored on average 0.1111111111111111 amp notes in auto
-team 1836 scored on average 0.625 amp notes in auto
-team 6072 scored on average 0.6363636363636364 amp notes in auto
+team 5137 scored on average 0.07142857142857142 amp notes in auto
+team 1836 scored on average 0.5 amp notes in auto
+team 6072 scored on average 0.625 amp notes in auto
 
-last updated at 2024-04-05 14:33:32.697866
+last updated at 2024-04-05 19:08:03.324164
